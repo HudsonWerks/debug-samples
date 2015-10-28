@@ -10,7 +10,7 @@ size_t majortom_len (const char *s)
 
 int main (int argc, char *argv[])
 {
-  const char *a = "Ground Control to Major Tom";
+  const char *a = NULL;
 
   printf ("The number of characters in Major Tom string a = %d\n", majortom_len (a));
 
